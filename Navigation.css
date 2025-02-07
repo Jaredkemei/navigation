@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: chartreuse;
+    color: tomato;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: tomato;
+    font-size: 1 rem;
+    font-weight: bold;
+    margin-left: 190px;
+}
+nav ul li a:hover {
+    color: white;
+    transition: 0.5s;
+}
